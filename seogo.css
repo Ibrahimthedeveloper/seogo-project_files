@@ -1,0 +1,383 @@
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,800&display=swap"); */
+body {
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: normal;
+    font-style: normal;
+  }
+  header{
+    position: sticky;
+    top: 0;
+    border: 1px solid white;
+    background-color: white;
+  
+  }
+  button {
+    color: #1F1F1F;
+    outline: medium none;
+  }
+  h1, h2, h3, h4, h5 {
+    /* font-family: "Poppins", sans-serif; */
+    /* color: #001D38; */
+  }
+  p {
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 26px;
+    margin-bottom: 13px;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  h3 {
+    font-size: 24px;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    list-style: none;
+  }
+  a,
+.button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+a:focus,
+.button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:focus {
+    text-decoration: none;
+  }
+
+  a:focus,
+a:hover {
+  text-decoration: none;
+}
+a,
+button {
+  color: #1F1F1F;
+  outline: medium none;
+}
+.my-button{
+   color: #FF008C;
+   background-color: white;
+   border-radius: 50px;
+   width: 150px;
+   height: 40px;
+   border: 1px solid #FF008C;
+}
+.my-button:hover{
+  color: white;
+  background-color: #FF008C;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+.first-background{
+    background-image: url("patrn_1.png");
+    /* position: 50% 100%; */
+}
+.second-button{
+    color:white;
+    background-color:  #FF008C;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #FF008C;
+}
+.first-section{
+    justify-content: center;
+    text-align: center;
+}
+.h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.my-image{
+    padding-top: 30px;
+}
+.box{
+    border: 1px solid rgb(208, 209, 209);
+    box-shadow: 0 0 #727272;
+}
+.first-boxes{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.pink{
+    color: #FF008C;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 170px;
+}
+/* .pink:hover{
+    color: white;
+    background-color: #FF008C;
+    border-radius: 50px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+} */
+.image{
+  width: 50%;
+  padding-left: 50px;
+}
+.about-us{
+  width: 50%;
+}
+.second-box{
+  display: flex;
+  padding-top: 50px;
+}
+.second-h3{
+  padding-top: 20px;
+  line-height: 2.0;
+}
+.about-us>p{
+  line-height: 2.0;
+}
+.first-a:hover{
+  color: #FF008C;
+}
+.first-a-b:hover{
+  color: #FF008C;
+}
+.first-a-c:hover{
+  color: #FF008C;
+}
+.third-button{
+  color:white;
+  background-color:  #FF008C;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #FF008C; 
+  margin-top: 20px;
+}
+.pad{
+  padding-top: 50px;
+}
+.first-wavy{
+  background-color: #001D38;
+  border: 2px wavy #001D38;
+  text-align: center;
+}
+.case{
+  color: white;
+  padding-top: 100px;
+}
+.pp{
+  color: white;
+}
+.oti-lo{
+  color: white;
+}
+/* .card{
+   border-radius: 200px;
+
+}
+.curv{
+  border-radius: 15px;
+} */
+.mofe{
+  display: flex;
+  margin-left: 100px;
+  gap: 30px;
+
+
+}
+.padding{
+  padding-top: 40px;
+}
+.card{
+  background-color:#021f3a;
+  border-radius: 15px;
+}
+.try{
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card:hover{
+  background-color: transparent;
+  opacity: 50%;
+}
+.why-image{
+  border-radius: 10px;
+  width: 50%;
+  padding-top: 50px;
+}
+.adieus{
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+.why-choose-us{
+  display: flex;
+}
+hr{
+  width: 70%;
+}
+.padding{
+  padding-left: 100px;
+}
+.choose{
+  padding-left: 100px;
+  font-family: "Poppins", sans-serif;;
+}
+.words{
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.flex-one{
+  display: flex;
+  gap: 150px;
+  padding-top: 50px;
+  padding-left: 180px;
+}
+.flex-two{
+  display: flex;
+  gap: 150px;
+  padding-top: 50px;
+  padding-left: 180px;
+}
+.light-blue{
+  color: white;
+  background-color: rgb(10, 10, 250);
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.french{
+  color: white;
+}
+.light-blue >p,h5{
+  color: white;
+}
+.lo{
+  padding-bottom: 20px;
+  padding-top: -20px;
+}
+.lolo{
+  padding-bottom: -100px;
+}
+.footer{
+  background-color: #021f3a;
+  /* padding-bottom: 20px; */
+}
+span{
+  color: #FF008C;
+}
+.hehe{
+  color: white;
+}
+.footer-flex-one{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.support{
+  padding-left: 87%;
+  color: white;
+}
+.support:hover{
+  color: #FF008C;
+}
+.last-h3{
+  color: white;
+}
+.last-logo{
+  display: flex;
+  gap: 160px;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+svg{
+  width: 20px;
+}
+.social-media-icon{
+  display: flex;
+  /* gap: 10px; */
+}
+.email{
+  width: 300px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-left: 90px;
+  position: absolute;
+  opacity: 10%;
+}
+.my-a-tag{
+  display: flex;
+  gap: 90px;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+.subscribe{
+  color:white;
+  background-color:  #FF008C;
+  border-radius: 50px;
+  width: 150px;
+  height: 60px;
+  border: 1px solid #FF008C; 
+  margin-top: 20px;
+  position: relative;
+  left: 65.9%;
+  bottom: 17.9px;
+}
+.white:hover{
+  color: #FF008C;
+}
+.white{
+  color: #727272;
+}
+.second{
+  padding-right: 30px;
+}
+.social-media-icon{
+  display: flex;
+  gap: 20px;
+  padding-left: 50px;
+}
+.second>a{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.third>a{
+  padding: 10px 0;
+}
+.c{
+  padding-left: 90px;
+}
+.p{
+  padding-left: 50px;
+}
+.al{
+  background-color: #021f3a;
+}
+.alh{
+  text-align: center;
+  padding: 40px 0;
+}
